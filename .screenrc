@@ -1,0 +1,7 @@
+defutf8 on
+utf8 on on
+startup_message off
+term "screen-256color"
+
+caption always "%{kG} %n%f* %t %?%{GR}%{kR} %u %{Rb}%:%{Gb}%?%?%F%{.b}%:%{.w}%?%="
+hardstatus alwayslastline "%{bk} %S %{kb} $LOGNAME %{bk} %H %?%{kb}%{kG} %-Lw%{Gk}%:%{Gb}%{Gk}%?%{Gk} %n%f* %t %{kG}%+Lw %-="
